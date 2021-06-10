@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.sources>src/main/java,src/main/webapp</sonar.sources>
+    <sonar.sources>src/main/webapp</sonar.sources>
   </properties>
   <build>
     <finalName>jenkins-git-integration</finalName>
@@ -25,7 +25,7 @@
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
+                <version>4.6.2.2472</version>
             </plugin>
         </plugins>
     </pluginManagement>
